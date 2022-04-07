@@ -10,7 +10,7 @@ const NavBar = () => {
 			<div className="flex-container">
 				<NavLink to="/" className="navbar-logo"><img src={logo} alt="logo" /></NavLink>
 				<div className="links-group">
-                <NavLink className={({isActive}) => (isActive ? "link-active flex-item" : "flex-item")} to="/about">Discover</NavLink>
+                <NavLink className={({isActive}) => (isActive ? "link-active flex-item" : "flex-item")} to="/discover">Discover</NavLink>
 				<NavLink className={({isActive}) => (isActive ? "link-active flex-item" : "flex-item")} to="/signup">Join</NavLink>
 				<NavLink className={({isActive}) => (isActive ? "link-active flex-item" : "flex-item")} to="/login">Login</NavLink>
 				</div>
