@@ -32,7 +32,7 @@ const Discover = () => {
             </div>
             <img src={movie} alt="movie"/>
         </section>
-        <Footer />
+        <Footer /> //TODO: CREATE FOOTER AND STYLE IT!
     </>
   )
 }
