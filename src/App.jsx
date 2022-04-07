@@ -25,7 +25,7 @@ const App = () => {
 
 export default App;
 
-
-// TODO: REACT ROUTER IMPLEMENTATION FOR SIGNIN / SIGNUP
-// TODO: CREATE A HEADER NAV
-// TODO: CREATE HOMEPAGE
+//TODO: FOOTER CREATE + STYLE
+//TODO: implement save of the accesToken in localstorage also we need to verify if token is valid
+//TODO: Style Login
+//TODO: style Signup

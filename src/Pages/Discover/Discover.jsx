@@ -30,9 +30,10 @@ const Discover = () => {
                 </div>
                 <p>By joining you will never miss out on your new favorite movie or tv-show.<br/>Watch trailers and find if the plot suits your style.</p>
             </div>
-            <img src={movie} alt="movie"/>
+            <img className="movies-img" src={movie} alt="movie"/>
         </section>
-        <Footer /> //TODO: CREATE FOOTER AND STYLE IT!
+        <Footer /> 
+        {/* TODO: CREATE FOOTER AND STYLE IT! */}
     </>
   )
 }
